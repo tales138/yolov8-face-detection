@@ -1,6 +1,8 @@
 # desafiolapiscoia
 resolução do desafio para bolsista do Lapisco
 
+Candidato: Tales Rodrigues
+
 Descrição do Desafio:
 
 Implementar um scrpit em python para detectar rostos em um vídeo utilizando YOLOv8.
