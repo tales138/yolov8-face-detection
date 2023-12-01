@@ -1,7 +1,7 @@
 # desafiolapiscoia
 resolução do desafio para bolsista do Lapisco
 
-Candidato: Tales Rodrigues
+Candidato: << Tales Rodrigues >>
 
 Descrição do Desafio:
 
