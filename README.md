@@ -10,12 +10,15 @@ Para realização da task foi utilizado um modelo já treinado disponibilizado p
 
 -- Instruções de Execução do Script:
 1 - Clonar esse repositório
+
     git clone https://github.com/tales138/desafiolapiscoia.git
 
 2 - Instalar a biblioteca ultralytics que permite usar YOLOv8
+
     pip install ultralytics
     
 3 - Caso seu sistema não tenha a biblioteca opencv
+
     pip install opencv-python
 
 4 - Caso deseje excutar o script em outro arquivo de vídeo, é necessário atualizar a variável "video_path" com o caminho do arquivo.
