@@ -2,13 +2,13 @@ from ultralytics import YOLO
 import cv2
 
 # carregando o modelo pré-treinado yolov8n-face.pt 
-model = YOLO('yolov8n-face.pt')
+model = YOLO("yolov8l-face.pt")
 
 # carregando o vídeo de exemplo
-video_path = 'demo.mp4'
+video_path = 'demo1.mp4'
 
 #variável que armazena o vídeo capturado pela opencv
-capture = cv2.VideoCapture(video_path)
+capture = cv2.VideoCapture(0)
 if not capture.isOpened():
     print("Erro ao abrir o vídeo. Certifique-se de que o caminho do vídeo está correto.")
 else:    
@@ -27,7 +27,7 @@ else:
                 contador += 1
                 x1, y1, x2, y2 = coordenada #obtenção de cada coordenada
                 x1, y1, x2, y2 = map(int, [x1, y1, x2, y2])
-                cv2.rectangle(frame, (x1, y1), (x2, y2), (200, 200, 200), -1) #borramento de face
+                #cv2.rectangle(frame, (x1, y1), (x2, y2), (200, 200, 200), -1) #borramento de face
 
             frame = results[0].plot() #plotagem do frame de enquadramento da face
 
