@@ -1,9 +1,5 @@
 # YOLOV8 FACE DETECTION
-resolução do desafio para bolsista do Lapisco
 
-Candidato: << Tales Rodrigues >>
-
-Descrição do Desafio:
 
 Implementar um scrpit em python para detectar rostos em um vídeo utilizando YOLOv8.
 Além disso, é necessário incorporar a funcionalidade de applicar um efeito de borramento nos rostos detectados, além de contar o número de pessoas no vídeo.
