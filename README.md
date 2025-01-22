@@ -1,4 +1,4 @@
-# desafiolapiscoia
+# YOLOV8 FACE DETECTION
 resolução do desafio para bolsista do Lapisco
 
 Candidato: << Tales Rodrigues >>
